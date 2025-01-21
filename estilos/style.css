@@ -1,3 +1,44 @@
 @charset "UTF-8";
 
-/* contruindo cores 
+/* contruindo cores
+lilas :#5f2c82
+verde: #49a09d
+*/
+
+
+*{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+html , body{
+background-color:#5f2c82 ;
+height: 100vh;
+width: 100vw;
+}
+main{
+
+    height: 100vh;
+    width: 100vw;
+     
+}
+
+section#login {
+position: absolute;
+    left: 50%;
+top: 50%;
+transform: translate(-50% , -50%);
+background-color: white;
+overflow: hidden;
+width: 250px;
+height: 500px;
+border-radius: 20px;
+box-shadow: 0px 0px 10px black;
+}
+section#login > div#imagem{
+background: #49a09d url(../imagens/pexels-tatiana-bidon-2044214905-30132851.jpg) no-repeat;
+background-size: cover;
+height: 200px;
+}
