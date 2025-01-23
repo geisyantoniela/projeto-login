@@ -41,4 +41,11 @@ section#login > div#imagem{
 background: #49a09d url(../imagens/pexels-tatiana-bidon-2044214905-30132851.jpg) no-repeat;
 background-size: cover;
 height: 200px;
+background-position: top rigth;
+display: block;
+}
+
+section#login > div#formulario {
+display: block;
+padding: 10px;
 }
