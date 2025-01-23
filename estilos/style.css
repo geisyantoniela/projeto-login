@@ -25,6 +25,7 @@ main{
      
 }
 
+
 section#login {
 position: absolute;
     left: 50%;
@@ -36,6 +37,7 @@ width: 250px;
 height: 500px;
 border-radius: 20px;
 box-shadow: 0px 0px 10px black;
+
 }
 section#login > div#imagem{
 background: #49a09d url(../imagens/pexels-tatiana-bidon-2044214905-30132851.jpg) no-repeat;
@@ -47,5 +49,5 @@ display: block;
 
 section#login > div#formulario {
 display: block;
-padding: 10px;
+padding: 20px;
 }
