@@ -11,14 +11,12 @@
     <main>
         <section id="login">
         <div id="imagem">
-        
-        
         </div>
         
         <div id="formulario">
             <h1>login</h1>
         <p> Seja bem vindo(a) . Faça seu login para acessar seu ambiente   </p>
-        <form action="login.php" method="post">
+        <form action="login.php" method="post" autocomplete="on">
      <div class="campo">
         <input type="email" name="login" id="ilogin" required maxlength="20" >
     <label for="ilogin">login</label>
@@ -27,8 +25,11 @@
     <input type="password" required minlength="8"  name="senha" id="isenha" >
     <label for="isenha">senha</label>
 </div>
-<input type="submit" value="Entrar">
-<a href="Esqueci.html"> Esqueci a senha</a>
+
+<div class="enter">
+    <input type="submit" value="Entrar">
+    <a href="Esqueci.html" class="botao"> Esqueci a senha</a>
+</div>
         </form>
         </div>
         </section>
